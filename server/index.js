@@ -53,7 +53,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 
-const host = process.env.HOST || '127.0.0.1'
+const host = process.env.HOST || '185.251.90.63'
 const port = process.env.PORT || 3000
 
 app.use(bodyParser.json())

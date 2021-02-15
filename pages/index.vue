@@ -33,9 +33,9 @@ export default {
   },
   methods: {
     greet: function (event) {
-      this.$axios.post( '/api/users', {
-          name: 'Vlad',
-          age: 29
+      this.$axios.post( 'http://185.251.90.63:3000/api/users', {
+          name: Vladhbnd',
+          age: 30
         })
     }
   },

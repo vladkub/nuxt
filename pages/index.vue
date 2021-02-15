@@ -41,7 +41,7 @@ export default {
   },
   mounted() {
     axios
-      .get('http://localhost:3000/api/users')
+      .get('http://185.251.90.63:3000/api/users')
       .then(response => (this.info = response));
     console.log(this.info);
   }
